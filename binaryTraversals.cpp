@@ -124,9 +124,9 @@ int main(int argc, char const *argv[])
 {
     node *root = NULL;
     root = buildtree(root);
-    // inOrder(root);
-    // preOrder(root);
-    // levelOrederTraversal(root);
+//     Fixed inOrder Traversal
+    inOrder(root);
+    
     postorderIterative(root);
     // postOrder(root);
     return 0;
