@@ -1,3 +1,4 @@
+#include<bits/stdc++.h>
 #include <iostream>
 #include<stack>
 #include <queue>
@@ -15,7 +16,6 @@ public:
         this->right = NULL;
     }
 };
-
 node *buildtree(node *root)
 {
     cout << "Enter the data for node : ";
@@ -66,7 +66,7 @@ void levelOrderTraversal(node* root) {
 
 void postorderIterative(node* root)
 {
-    if (root == NULL) {
+    if (root == NULL && root) {
         return;
     }
  
